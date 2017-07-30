@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "multiprocessing and seeded RNGs"
 date:   2016-03-27
 categories: multiprocessing python rng
