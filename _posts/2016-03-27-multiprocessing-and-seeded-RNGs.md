@@ -13,7 +13,7 @@ one thing i like to do whenever i use a random number generator is to explicitly
 
 let’s try this in python:
 
-{% highlight python linenos %}
+```python
 import multiprocessing as mp
 import numpy as np
 from functools import partial
@@ -36,4 +36,4 @@ print 'pi ~= {:.10f}'.format(float(4*in_circle)/n)
 
 # prints out:
 # pi ~= 3.1420292000
-{% endhighlight %}
+```
