@@ -1,5 +1,6 @@
 
  github: [metadata]
+ title: boris babenko
  encoding: UTF-8
  kramdown:
    input: GFM
