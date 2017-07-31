@@ -8,3 +8,5 @@
  gems:
    - jekyll-coffeescript
    - jekyll-paginate
+minima:
+  date_format: "%Y-%m-%d"
