@@ -1,3 +1,4 @@
+theme: minima
 github: [metadata]
 title: boris babenko, phd
 encoding: UTF-8
@@ -7,6 +8,5 @@ encoding: UTF-8
 # gems:
 #    - jekyll-coffeescript
 #    - jekyll-paginate
-theme: minima
 exclude:
    - README.md
