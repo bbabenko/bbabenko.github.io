@@ -1,13 +1,12 @@
-
- github: [metadata]
- title: boris babenko
- encoding: UTF-8
- kramdown:
-   input: GFM
-   hard_wrap: false
- gems:
-   - jekyll-coffeescript
-   - jekyll-paginate
+github: [metadata]
+title: boris babenko, phd
+encoding: UTF-8
+# kramdown:
+#    input: GFM
+#    hard_wrap: false
+# gems:
+#    - jekyll-coffeescript
+#    - jekyll-paginate
 theme: minima
-minima:
-   date_format: "%Y-%m-%d"
+exclude:
+   - README.md

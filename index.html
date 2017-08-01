@@ -1,13 +1,13 @@
 ---
 layout: default
-description: A description about my blog homepage
+description: boris babenko, phd
 ---
 
 <div id="posts">
   <h2>blog posts</h2>
   <ul>
     {% for post in site.posts %}
-      <li><span>{{ post.date }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
