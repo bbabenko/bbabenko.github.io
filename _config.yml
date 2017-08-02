@@ -2,6 +2,7 @@ theme: minima
 github: [metadata]
 title: boris babenko, phd
 encoding: UTF-8
+permalink: /:title/
 # kramdown:
 #    input: GFM
 #    hard_wrap: false
