@@ -4,7 +4,11 @@
 
 @import "{{ site.theme }}";
 
-a {
+body {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+a:visited, a:active {
     // color: #72d218;
     color: #666666;
     text-decoration: none;
