@@ -44,8 +44,11 @@ h1, h1.post-title {
     background: #f9fff4;
 
     pre, code {
-        border: 1px solid #72d218;
         background-color: #f9fff4;
+    }
+
+    pre {
+        border: 1px solid #72d218;
     }
 }
 
