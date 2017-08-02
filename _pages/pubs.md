@@ -1,4 +1,5 @@
 ---
+layoutl: defaults
 title:  "publications"
 ---
 
