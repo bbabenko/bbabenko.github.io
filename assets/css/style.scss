@@ -37,6 +37,10 @@ h1, h1.post-title {
 
 }
 
+.site-footer {
+    border-top: 0px;
+}
+
 // syntax highlight
 
 .highlighter-rouge .highlight{
@@ -86,7 +90,7 @@ h1, h1.post-title {
 .highlight .nd { color: #3c5d5d; font-weight: bold } /* Name.Decorator */
 .highlight .ni { color: #800080 } /* Name.Entity */
 .highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
-.highlight .nf { color: #76bc3c; font-weight: bold } /* Name.Function */
+.highlight .nf { color: #63ad26; font-weight: bold } /* Name.Function */
 .highlight .nl { color: #990000; font-weight: bold } /* Name.Label */
 .highlight .nn { color: #555555 } /* Name.Namespace */
 .highlight .nt { color: #000080 } /* Name.Tag */
