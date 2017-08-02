@@ -3,6 +3,7 @@ github: [metadata]
 title: boris babenko, phd
 encoding: UTF-8
 permalink: /:title/
+include: ['_pages']
 # kramdown:
 #    input: GFM
 #    hard_wrap: false
