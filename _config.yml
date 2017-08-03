@@ -12,5 +12,6 @@ kramdown:
 #    - jekyll-paginate
 exclude:
    - README.md
+   - projects/miltrack.html
 disqus:
     shortname: website-11
