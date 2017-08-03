@@ -4,9 +4,6 @@ title: boris babenko, phd
 encoding: UTF-8
 permalink: /:title/
 include: ['_pages']
-kramdown:
-   input: GFM
-   hard_wrap: false
 # gems:
 #    - jekyll-coffeescript
 #    - jekyll-paginate
@@ -14,5 +11,6 @@ exclude:
    - README.md
 header_pages:
    - pubs.html
+   - _pages/pubs.md
 disqus:
     shortname: website-11
