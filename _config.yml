@@ -10,7 +10,6 @@ include: ['_pages']
 exclude:
    - README.md
 header_pages:
-   - pubs.html
    - _pages/pubs.md
 disqus:
     shortname: website-11
