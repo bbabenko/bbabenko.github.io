@@ -12,3 +12,5 @@ kramdown:
 #    - jekyll-paginate
 exclude:
    - README.md
+disqus:
+    shortname: website-11
