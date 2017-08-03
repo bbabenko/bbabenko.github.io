@@ -7,9 +7,7 @@ title:  "publications"
 
 ### "Multiple Instance Learning with Manifold Bags"
 Boris Babenko, Nakul Verma, Piotr Dollar, Serge Belongie
-
 ICML 2011, Bellevue, Washington
-
 [[pdf (full version)](http://vision.ucsd.edu/~bbabenko/data/mbag_full_final.pdf)] [[poster](http://vision.ucsd.edu/~bbabenko/data/mbag_poster.pdf)] [[slides](http://vision.ucsd.edu/~bbabenko/data/mbag_slides.pdf)]
 ```
 @inproceedings {babenko11,
@@ -23,9 +21,7 @@ ICML 2011, Bellevue, Washington
 
 ### "End-to-end Scene Text Recognition"
 Kai Wang, Boris Babenko, Serge Belongie
-
 ICCV 2011, Barcelona, Spain
-
 [[pdf](http://vision.ucsd.edu/~kai/pubs/wang_iccv2011.pdf)] [[project page]([project page])]
 ```
 @inproceedings {wang11,
