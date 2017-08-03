@@ -2,7 +2,52 @@
 layout: default
 permalink: "/miltrack.html"
 ---
-<h1>Tracking with Online Multiple Instance Learning (MILTrack)</h1>
+<h1>Tracking with Online Multiple Instance Learning</h1>
 <p>
     In this paper we address the problem of tracking an object in a video given its location in the first frame and no other information.  Recently, a class of tracking techniques called "tracking by detection" has been shown to give promising results at real-time speeds.  These methods train a discriminative classifier in an online manner to separate the object from the background.  This classifier bootstraps itself by using the current tracker state to extract positive and negative examples from the current frame.  Slight inaccuracies in the tracker can therefore lead to incorrectly labeled training examples, which degrade the classifier and can cause further drift.  In this paper we show that using Multiple Instance Learning (MIL) instead of traditional supervised learning avoids these problems, and can therefore lead to a more robust tracker with fewer parameter tweaks.  We propose a novel online MIL algorithm for object tracking that achieves superior results with real-time performance.  We present thorough experimental results (both qualitative and quantitative) on a number of challenging video clips.
 </p>
+
+<table border="0" align="center" width="500">
+<tr><td align="center">
+<img src="/assets/images/miltrack.png"/>
+<caption>Figure 1 - Updating a discriminative appearance model: (A) Using a single positive image patch to update a traditional discriminative classifier.  The positive image patch chosen does not capture the object perfectly. (B) Using several positive image patches to update a traditional discriminative classifier.  This can confuse the classifier causing poor performance.  (C) Using one positive bag consisting of several image patches to update a MIL classifier.</caption>
+</td></tr>
+</table>
+
+<h2>related publications</h2>
+
+<table width="100%">
+<tr>
+<td>
+<h3>"Robust Object Tracking with Online Multiple Instance Learning"</h3><br/>
+<span>Boris Babenko, Ming-Hsuan Yang, Serge Belongie</span><br />
+<a href="http://www.computer.org/portal/web/tpami/">IEEE TPAMI</a>, August 2011<br/>
+<a href="http://vision.ucsd.edu/~bbabenko/data/miltrack-pami-final.pdf">[pdf]</a>
+{% highlight %}
+@inproceedings {babenko11,
+title = {Robust Object Tracking with Online Multiple Instance Learning},
+journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+year = {2011},
+author = {Boris Babenko and Ming-Hsuan Yang Serge Belongie}
+}
+{% endhighlight %}
+</td></tr>
+
+<tr>
+<td>
+<h3>" Visual Tracking with Online Multiple Instance Learning"</h3><br/>
+<span>Boris Babenko, Ming-Hsuan Yang, Serge Belongie</span><br />
+<i>(Oral), </i><a href="http://www.cvpr2009.org/">CVPR 2009</a>, Miami, Florida</a>, Kyoto, Japan<br/>
+<a href="http://vision.ucsd.edu/~bbabenko/data/miltrack_cvpr09.pdf">[pdf]</a>
+<a href="http://vision.ucsd.edu/~bbabenko/data/CVPR 09 slides.ppt">[slides]</a>
+<a href="http://vision.ucsd.edu/~bbabenko/miltrack-errata.html">[errata]</a>
+{% highlight %}
+@inproceedings{babenko_cvpr09,
+title={{Visual Tracking with Online Multiple Instance Learning}},
+author={B. Babenko and Ming-Hsuan Yang and S. Belongie},
+booktitle={CVPR},
+year={2009},
+}
+{% endhighlight %}
+</td></tr>
+</table>
