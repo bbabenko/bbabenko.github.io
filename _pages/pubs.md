@@ -1,6 +1,7 @@
 ---
 layoutl: defaults
 title:  "publications"
+permalink: "/pubs.html"
 ---
 
 ## publications in peer-reviewed venues
