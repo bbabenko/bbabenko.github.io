@@ -9,23 +9,23 @@ normally for detection problems i am all for using a learning-based approach, i.
 
 here’s the original image:
 
-![googlenet](/assets/posts/bubbles/fig1.png)
+![](/assets/posts/bubbles/fig1.png)
 
 the first thing i noticed is that the background illumination is uneven.  there is a simple trick to fix this: you blur the image with a wide gaussian kernel to get the background isolated:
 
-![googlenet](/assets/posts/bubbles/fig2.png)
+![](/assets/posts/bubbles/fig2.png)
 
 then you subtract the background from the original image, and you get this:
 
-![googlenet](/assets/posts/bubbles/fig3.png)
+![](/assets/posts/bubbles/fig3.png)
 
 some of the beads in the center are a bit faded, but overall the effects of illumination got cleaned away nicely.  this step is probably not strictly required, though i found it much easier to get template matching to work with this sort of normalization.  next, i cropped out one of the beads to use as a template:
 
-![googlenet](/assets/posts/bubbles/fig4.png)
+![](/assets/posts/bubbles/fig4.png)
 
 the final step is to run template matching (normalized cross correlation), and find the peaks in the response (aka non-maximal suppression), getting you the rough locations of the beads:
 
-![googlenet](/assets/posts/bubbles/fig5.png)
+![](/assets/posts/bubbles/fig5.png)
 
 results are not perfect – some beads on the sides of the image didn’t get detected, and the locations are probably not perfectly in the center of each bead, but depending on the application, this may suffice.
 
