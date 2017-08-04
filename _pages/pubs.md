@@ -24,7 +24,7 @@ ICML 2011, Bellevue, Washington
 ### "End-to-end Scene Text Recognition"
 Kai Wang, Boris Babenko, Serge Belongie  
 ICCV 2011, Barcelona, Spain  
-[[pdf](http://vision.ucsd.edu/~kai/pubs/wang_iccv2011.pdf)] [[project page]([project page])]
+[[pdf](http://vision.ucsd.edu/~kai/pubs/wang_iccv2011.pdf)] [[project page]([http://www.vision.caltech.edu/visipedia/])]
 ```
 @inproceedings {wang11,
   title = {End-to-end Scene Text Recognition},
@@ -70,7 +70,7 @@ Steve Branson, Catherine Wah, Florian Schroff, Boris Babenko, Peter Welinder, Pi
 ### "Automated Analysis of PIN-4 Stained Prostate Needle Biopsies"
 Bikash Sabata, Boris Babenko, Robert Monroe, Chukka Srinivas  
 Prostate Cancer Imaging Workshop, in conjunction with MICCAI, September 2010  
-[[pdf](tbd)]
+[[pdf](/assets/papers/)]
 ```
 @inproceedings {sabata10,
   title = {Automated Analysis of PIN-4 Stained Prostate Needle Biopsies},
