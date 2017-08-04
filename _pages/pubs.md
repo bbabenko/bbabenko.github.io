@@ -9,7 +9,7 @@ please see [my google scholar page](https://scholar.google.com/citations?user=Hz
 ### "Multiple Instance Learning with Manifold Bags"
 Boris Babenko, Nakul Verma, Piotr Dollar, Serge Belongie  
 ICML 2011, Bellevue, Washington  
-[[pdf (full version)](http://vision.ucsd.edu/~bbabenko/data/mbag_full_final.pdf)] [[poster](http://vision.ucsd.edu/~bbabenko/data/mbag_poster.pdf)] [[slides](http://vision.ucsd.edu/~bbabenko/data/mbag_slides.pdf)]
+[[pdf (full version)](/assets/papers/mbag_full_final.pdf)] [[poster](/assets/papers/mbag_poster.pdf)] [[slides](/assets/papers/mbag_slides.pdf)]
 ```
 @inproceedings {babenko11,
   title = {Multiple Instance Learning with Manifold Bags},
@@ -39,7 +39,7 @@ ICCV 2011, Barcelona, Spain
 ### "Robust Object Tracking with Online Multiple Instance Learning"
 Boris Babenko, Ming-Hsuan Yang, Serge Belongie  
 IEEE TPAMI, August 2011  
-[[pdf](http://vision.ucsd.edu/~bbabenko/data/miltrack-pami-final.pdf)] [[project page](miltrack.html)]
+[[pdf](/assets/papers/miltrack-pami-final.pdf)] [[project page](/miltrack.html)]
 ```
 @inproceedings {babenko11,
 title = {Robust Object Tracking with Online Multiple Instance Learning},
