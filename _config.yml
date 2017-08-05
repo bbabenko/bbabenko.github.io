@@ -15,3 +15,4 @@ header_pages:
    - _pages/misc.md
 disqus:
     shortname: website-11
+google_analytics: UA-104133739-1
