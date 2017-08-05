@@ -11,5 +11,6 @@ exclude:
    - README.md
 header_pages:
    - _pages/pubs.md
+   - _pages/misc.md
 disqus:
     shortname: website-11
