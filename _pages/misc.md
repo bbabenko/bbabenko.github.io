@@ -5,7 +5,8 @@ permalink: "/misc.html"
 ---
 
 ## gifs
-![](/assets/images/bestdrink.gif) ![](/assets/images/fast.gif)
+<img src="/assets/images/bestdrink.gif" height="100px"/>
+<img src="/assets/images/fast.gif" height="100px"/>
 
 ## blue through red
 periodically, i write and record [music](https://bluethroughred.bandcamp.com/) in my living room.
