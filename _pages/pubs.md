@@ -122,8 +122,8 @@ ECCV 2008, Marseille, France
 ### "Simultaneous Learning and Alignment: Multi-Instance and Multi-Pose Learning"
 Boris Babenko, Piotr Dollár, Zhuowen Tu, Serge Belongie  
 Faces in Real-Life Images, Marseille, France  
-* Earlier version appeared as Technical Report CS2008, UCSD (2008)
-[[pdf](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/BabenkoEtAlECCV08simul.pdf)] [[video](http://www.youtube.com/watch?v=F3kxaLP7VGs)]
+\* Earlier version appeared as Technical Report CS2008, UCSD (2008)
+[[pdf](https://vision.cornell.edu/se3/wp-content/uploads/2014/09/BabenkoEtAlECCV08simul.pdf)] [[video](http://www.youtube.com/watch?v=F3kxaLP7VGs)]  
 ```
 @inproceedings {babenko11,
   title = {Simultaneous Learning and Alignment: Multi-Instance and Multi-Pose Learning},
