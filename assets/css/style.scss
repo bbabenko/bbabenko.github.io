@@ -25,6 +25,10 @@ a:hover {
     font-weight: bold;
     font-family: 'Merriweather', sans-serif;
     text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .site-nav .page-link {
