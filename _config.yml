@@ -3,7 +3,7 @@ github: [metadata]
 title: boris babenko, phd
 encoding: UTF-8
 permalink: /:title/
-markdown: maruku
+markdown: kramdown
 include: ['_pages']
 # gems:
 #    - jekyll-coffeescript
