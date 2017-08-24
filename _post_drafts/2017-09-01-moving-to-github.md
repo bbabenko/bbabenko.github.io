@@ -24,3 +24,5 @@ i finally bit the bullet and moved and website and blog to [github pages](https:
 
 4. you can inherit from a template, and easily overwrite portions.  e.g., i started with the [minima](https://github.com/jekyll/minima) template and i add my tweaks onto that.
 you can, of course, see how i set everything up on https://github.com/bbabenko/bbabenko.github.io.
+
+5. you can write an entire post in a python/jupyter notebook, and easily convert that into a markdown file to be published on your blog.  the code blocks and latex will get rendered as expected.  to do this, you can just run the `jupyter nbconvert --to markdown SOME_NOTEBOOK.ipynb` command; you'll need to make some very minor adjustments to the .md file that is rendered (mostly just fixing the paths to figures). this is a pretty killer feature/workflow, in my opinion.  see [https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html](this page) for more info.
