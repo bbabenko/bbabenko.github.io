@@ -6,7 +6,7 @@ permalink: /:title/
 markdown: kramdown
 include: ['_pages']
 collections:
-  drafts:
+  post_drafts:
     output: true
 # gems:
 #    - jekyll-coffeescript
