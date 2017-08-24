@@ -1,7 +1,7 @@
 ---
 title:  "moving my website and blog to github"
 date:   2017-09-01
-laout: draft
+layout: draft
 ---
 
 i finally bit the bullet and moved and website and blog to [github pages](https://pages.github.com/).  all in all, it was fairly straight forward, and the jekyll backend offers a lot of nice features for technically blog writing:
