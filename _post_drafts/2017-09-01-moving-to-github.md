@@ -20,7 +20,7 @@ i finally bit the bullet and moved and website and blog to [github pages](https:
 
 3. you can use latex for math:
 
-$$ \sigma _{x}\sigma _{p}\geq {\frac {\hbar }{2}} $$
+    $$ \sigma _{x}\sigma _{p}\geq {\frac {\hbar }{2}} $$  
 
     to set this up, i followed [this write-up](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/) (though i didn't need to change the markdown backend from github's default)
 
