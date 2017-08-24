@@ -4,7 +4,7 @@ title: boris babenko, phd
 encoding: UTF-8
 permalink: /:title/
 markdown: kramdown
-include: ['_pages']
+include: ['_pages', '_drafts']
 # gems:
 #    - jekyll-coffeescript
 #    - jekyll-paginate
