@@ -4,11 +4,11 @@ date:   2017-08-25
 use_math: true
 ---
 
-i finally bit the bullet and moved and website and blog to [github pages](https://pages.github.com/).  all in all, it was fairly straight forward, and the jekyll backend offers a lot of nice features for technical blog writing:
+i finally bit the bullet and moved my website and blog to [github pages](https://pages.github.com/).  all in all, it was fairly straight forward, and the jekyll backend offers a lot of nice features for technical blog writing:
 
 1. you can write your pages in markdown (though you don't have to, you can use html if you want)
 
-2. you can include blocks of code trivially using markdown's ``` syntax:
+2. you can include blocks of code trivially using [markdown's ``` syntax](https://help.github.com/articles/creating-and-highlighting-code-blocks/):
 
     ```python
     import numpy as np
