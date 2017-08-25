@@ -24,7 +24,7 @@ i finally bit the bullet and moved my website and blog to [github pages](https:/
     to set this up, i followed [this write-up](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/) (though i didn't need to change the markdown backend from github's default)
 
 4. you can inherit from a template, and easily overwrite/overload portions.  e.g., i started with the [minima](https://github.com/jekyll/minima) template and i added my tweaks onto that.
-you can, of course, see how i set everything up on https://github.com/bbabenko/bbabenko.github.io.
+you can, of course, see how i set everything up on [https://github.com/bbabenko/bbabenko.github.io](https://github.com/bbabenko/bbabenko.github.io).
 
 5. you can write an entire post in a python/jupyter notebook, and easily convert that into a markdown file to be published on your blog.  the code blocks and latex will get rendered as expected.  to do this, you can just run the `jupyter nbconvert SOME_NOTEBOOK.ipynb --to markdown` command; you'll need to make some very minor adjustments to the .md file that is rendered (mostly just fixing the paths to figures). this is a pretty killer feature/workflow, in my opinion.  see [this page](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html) for more info.
 
