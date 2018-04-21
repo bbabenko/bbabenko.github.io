@@ -1,11 +1,10 @@
 ---
 layout: draft
-title:  "weight decay"
+title:   weight decay vs $L_2$ regularization"
 date:   2018-04-21
 use_math: true
 ---
 
-# weight decay vs $L_2$ regularization
 one popular way of adding regularization to deep learning models is to include a weight decay term in the updates.  this is the same thing as adding an $L_2$ regularization term to the loss… or is it?
 
 ## a brief story about a bug

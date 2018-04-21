@@ -5,7 +5,6 @@ date:   2018-04-21
 use_math: true
 ---
 
-# boris’ practical tips (life, machine learning, and everything)
 after a 3 year tenure, last week was my last week at orbital insight.  before i left, someone from my team asked me to write down some practical tips/advice for training deep learning models, and since I personally hate unsolicited advice, i decided to extend the scope to include a lot of unsolicited advice about things far beyond deep learning.
 
 ## life / career
@@ -20,7 +19,7 @@ after a 3 year tenure, last week was my last week at orbital insight.  before i 
 - naming things is hard, but also important.  name your variables well.  some examples particularly relevant to machine learning:
   - if your variables are meant to represent physical quantities, include units in the variable name, e.g. `length_mtr` or `length_px` (in CV, we often use pixels as a unit of distance) versus just `length`, `timeout_ms` or `timeout_sec` versus just `timeout`, `angle_rad` or `angle_deg` versus just `angle`, etc.
   - `x` and `y` conventions get very confusing… e.g. in numpy, accessing an element in a 2D matrix is done via `(row, col)`, whereas specifying a location in a 2D space is usually done via `(x, y)`… same goes for specifying the size of a matrix — in numpy it’s `(num_rows, num_cols)`, versus `(width, height)` for more physical quantities.  so, if you have a tuple with coordinates, prefer names like `coords_xy` or `coords_rc` over just `coords`, and for shapes/size, prefer `*_shape` to mean rows/cols, and `*_size` to mean (width, height).
-  - angles are the worst.  clockwise versus counter-clockwise… relative to positive x-axis? or positive y?  this isn’t really a tip, just a complaint…
+  - angles are the worst.  clockwise versus counter-clockwise? relative to positive x-axis? or positive y?  this isn’t really a tip, just a complaint…
 - occam’s razor: don’t do anything complicated until you’ve tried simple things and ensured they don’t work.  simple things are more likely to work well.  complicated things are hard to maintain, debug, etc.  prefer simple things over complicated things even if the simple thing is a little bit worse (unless performance is absolutely critical).  this is related the the “interesting trap” from above -- interesting things tend to be complicated, so people tend to be pulled towards them.
 - (when working in a larger engineering org) if you see something that looks wrong, never say “i don’t know what’s going on here… meh, not my problem”.   either dig in yourself to figure out the problem, or escalate the problem to someone else.
 
