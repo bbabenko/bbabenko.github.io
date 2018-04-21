@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title:  "weight decay"
 date:   2018-04-21
 use_math: true
