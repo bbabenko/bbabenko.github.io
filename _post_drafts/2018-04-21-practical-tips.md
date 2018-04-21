@@ -13,7 +13,6 @@ after a 3 year tenure, last week was my last week at orbital insight.  before i 
 - don’t play violin at 2am.  especially if you have roommates.
 
 
-
 ## engineering
 - write unit tests.
   - if you find yourself checking your code by trying toy examples in a notebook or in the ipython shell, you should probably write a unit test.
