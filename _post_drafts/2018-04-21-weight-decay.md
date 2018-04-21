@@ -16,7 +16,7 @@ machine learning bugs are notoriously difficult to track down — rather than ge
 
 at the end of the day the difference is just in terminology (and i’m guessing the literature is inconsistent), but one that can have an important practical difference.  weight decay is usually defined as a term that’s added directly to the update rule.  e.g., in the seminal [AlexNet paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf):
 
-![](https://pbs.twimg.com/media/DT19w2sVMAAw6-B.jpg:large)
+![png](/assets/posts/weight_decay/weight_decay_alexnet.png)
 
 
 where $L$ is your typical loss function (e.g. cross entropy).  in the above, the authors use a weight decay hyperparameter of 0.0005.
