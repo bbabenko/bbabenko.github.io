@@ -39,7 +39,7 @@ is one implementation better than the other?  a [recent paper by loshchilov et a
 
 ## tensorflow layers API
 
-this last bit is a quick aside: i was flipping through the [official tutorial for the tensorflow layers API](https://www.tensorflow.org/tutorials/layers) (which looks very similar to keras), and was wondering how to configure regularization.  it turns out, similar to keras, when you create layers (either via the class or the function), you can pass in a regularizer object.  there’s a big gotcha though — if you try to extend the tutorial i linked to above to include regularization, it won’t work!  in the totural, the loss tensor that’s passed into the estimator is defined as:
+this last bit is a quick aside: i was flipping through the [official tutorial for the tensorflow layers API (r1.7 as of this writing)](https://www.tensorflow.org/tutorials/layers) (which looks very similar to keras), and was wondering how to configure regularization.  it turns out, similar to keras, when you create layers (either via the class or the function), you can pass in a regularizer object.  there’s a big gotcha though — if you try to extend the tutorial i linked to above to include regularization, it won’t work!  in the totural, the loss tensor that’s passed into the estimator is defined as:
 
 ```python
 loss = tf.losses.sparse_softmax_cross_entropy(labels=labels, logits=logits)
