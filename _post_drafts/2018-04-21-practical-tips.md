@@ -1,6 +1,6 @@
 ---
 layout: draft
-title:  "boris’ practical tips (life, machine learning, and everything)"
+title:  "practical tips (life, machine learning, and everything)"
 date:   2018-04-21
 use_math: true
 ---
@@ -16,7 +16,7 @@ after a 3 year tenure, last week was my last week at orbital insight.  before i 
 - write unit tests.
   - if you find yourself checking your code by trying toy examples in a notebook or in the ipython shell, you should probably write a unit test.
   - if you discover a bug, you should probably write a unit test (write the test first to repro bug, make sure it fails, then fix the bug and make sure test passes).
-- naming things is hard, but also important.  name your variables well.  some examples particularly relevant to machine learning:
+- [naming things is hard](https://martinfowler.com/bliki/TwoHardThings.html), but also important.  name your variables well.  some examples particularly relevant to machine learning:
   - if your variables are meant to represent physical quantities, include units in the variable name, e.g. `length_mtr` or `length_px` (in CV, we often use pixels as a unit of distance) versus just `length`, `timeout_ms` or `timeout_sec` versus just `timeout`, `angle_rad` or `angle_deg` versus just `angle`, etc.
   - `x` and `y` conventions get very confusing… e.g. in numpy, accessing an element in a 2D matrix is done via `(row, col)`, whereas specifying a location in a 2D space is usually done via `(x, y)`… same goes for specifying the size of a matrix — in numpy it’s `(num_rows, num_cols)`, versus `(width, height)` for more physical quantities.  so, if you have a tuple with coordinates, prefer names like `coords_xy` or `coords_rc` over just `coords`, and for shapes/size, prefer `*_shape` to mean rows/cols, and `*_size` to mean (width, height).
   - angles are the worst.  clockwise versus counter-clockwise? relative to positive x-axis? or positive y?  this isn’t really a tip, just a complaint…
@@ -25,11 +25,11 @@ after a 3 year tenure, last week was my last week at orbital insight.  before i 
 
 
 ## machine learning / computer vision / deep learning
-- the **most** important thing to getting good results is how you frame the problem.  for example, if you want to categorize pictures of birds, should you set that up as an image classification task?  or is it better to get ground truth for parts of each bird (wings, head, tail, etc) and have the model take that into account during training/inference?  which one will be easier for the model to learn? which one will be easier for human annotators to collect accurate ground truth?  how should you sample the images you get annotated? and so on…
+- the **most** important thing to getting good results is how you frame the problem.  for example, if you want to categorize pictures of birds, should you set that up as a basic image classification task? or is it better to first detect the bird and then classify it?  or is it better to segment the bird (rather than detect it w/ a bounding box detector)?  should the ground truth include locations of bird parts (wing, eyes, beak, ets), and should the model incorporate this somehow during training/inference?  which one will be easier for the model to learn? which one will be easier for human annotators to collect accurate ground truth?  how should you sample the images you get annotated? and so on…
 - the **second** most important thing to getting good results is the dataset.  is it large enough? is it accurate enough?  is it representative of the data the model will be used on?
-- the **least** ******important thing to getting good results is the model/algorithm (the least out of this short list — it’s still important!)  unfortunately, it’s also usually the *most* interesting thing to work on, compared to the two things above.  see “interesting trap” above.
-- avoid “training-serving skew” -- this is *the* most common source of problems in ML-based products.  as mentioned above, think carefully about how the data is sampled.  make sure that you do the exact same pre-processing during training and production/serving (ideally, use the same exact piece of code).
-- avoid overfitting.  always be mindful of this.  you always want to get good results, so you always have an incentive to (unintentionally) overfit.  
+- the **least** important thing to getting good results is the model/algorithm (the least out of this short list — it’s still important!)  unfortunately, it’s also usually the *most* interesting thing to work on, compared to the two things above.  again, see “interesting trap” above.
+- avoid “training-serving skew” -- this is *the* most common source of problems in ML-based systems.  as mentioned above, think carefully about how the data is sampled.  make sure that you do the exact same pre-processing during training and production/serving (ideally, use the same exact piece of code).
+- avoid overfitting.  always be mindful of this.  you always have an incentive to (unintentionally) overfit.  
 - class imbalance is a common problem.  here are some tricks we usually use to deal with it:
   - tweak class weights in the loss function (e.g. see the `class_weights` arg into the `fit` method in [keras](https://keras.io/models/model/#fit))
   - how you sample your batches is very important -- e.g. you may want to sample “hard” examples of a common category more frequently (as in “hard negative mining”), and/or ensure that each batch contains enough examples of the rare categories/labels
