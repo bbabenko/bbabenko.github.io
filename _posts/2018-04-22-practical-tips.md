@@ -1,6 +1,6 @@
 ---
 title:  "practical tips (life, machine learning, and everything)"
-date:   2018-04-21
+date:   2018-04-22
 use_math: true
 ---
 
