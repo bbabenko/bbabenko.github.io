@@ -4,7 +4,7 @@ date:   2018-04-22
 use_math: true
 ---
 
-after a 3 year tenure, last week was my last week at orbital insight.  before i left, someone from my team asked me to write down some practical tips/advice for training deep learning models, and since I personally hate unsolicited advice, i decided to extend the scope to include a lot of unsolicited advice about things far beyond deep learning.
+after a wonderful three years, last friday was my last day at orbital insight.  before i left, someone from my team asked me to write down some practical tips/advice for training deep learning models, and since I personally hate unsolicited advice, i decided to extend the scope to include a lot of unsolicited advice about things far beyond deep learning.
 
 ## life / career
 - avoid the “interesting trap”: working on something that is interesting is rewarding in the near term, but working on something *useful* (either to your team-mates or to customers) is rewarding in the long term.  the two are not mutually exclusive, but people with an intellectual leaning tend to place an unproportional weight on “interesting”.  stop yourself periodically and ask whether you’re balancing the two aspects well.
