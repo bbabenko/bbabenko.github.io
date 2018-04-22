@@ -1,5 +1,4 @@
 ---
-layout: draft
 title:  "practical tips (life, machine learning, and everything)"
 date:   2018-04-21
 use_math: true
