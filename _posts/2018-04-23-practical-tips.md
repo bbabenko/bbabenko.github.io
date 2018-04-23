@@ -29,7 +29,7 @@ after a wonderful three years, my last day at orbital insight was a week ago.  b
 - the **least** important thing to getting good results is the model/algorithm (the least out of this short list — it’s still important!)  unfortunately, it’s also usually the *most* interesting thing to work on, compared to the two things above.  again, see “interesting trap” above.
 - avoid “training-serving skew” -- this is *the* most common source of problems in ML-based systems.  as mentioned above, think carefully about how the data is sampled.  make sure that you do the exact same pre-processing during training and production/serving (ideally, use the same exact piece of code).
 - avoid overfitting.  always be mindful of this.  you always have an incentive to (unintentionally) overfit.  
-- class imbalance is a common problem.  here are some tricks we usually use to deal with it:
+- class imbalance is a common problem.  here are some tricks to deal with it:
   - tweak class weights in the loss function (e.g. see the `class_weights` arg into the `fit` method in [keras](https://keras.io/models/model/#fit))
   - how you sample your batches is very important -- e.g. you may want to sample “hard” examples of a common category more frequently (as in “hard negative mining”), and/or ensure that each batch contains enough examples of the rare categories/labels
 - run hyper-parameter searches with a smaller dataset, and then use the “complete” large dataset to train on the best hyper-parameters, otherwise you you won’t be able to iterate on the model as quickly.
