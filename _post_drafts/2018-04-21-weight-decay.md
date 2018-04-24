@@ -1,6 +1,6 @@
 ---
 layout: draft
-title:   weight decay vs $L_2$ regularization"
+title:   weight decay vs L2 regularization"
 date:   2018-04-21
 use_math: true
 ---
@@ -11,7 +11,7 @@ one popular way of adding regularization to deep learning models is to include a
 
 machine learning bugs are notoriously difficult to track down — rather than getting an exception, or a completely wrong output, the model might perform a little bit worse than it should.  i had one such experience when moving some code over from caffe to keras a few months ago.  i combed the code to make sure all hyperparameters were exactly the same, and yet when i would train the model on the exact same dataset, the keras model would always perform a bit worse.  the difference ended up being due to the subtle difference between “weight decay” and “$L_2$ regularization”.
 
-## the subtle difference between weight decay and $L_2$ regularization
+## the subtle difference
 
 at the end of the day the difference is just in terminology (and i’m guessing the literature is inconsistent), but one that can have an important practical difference.  weight decay is usually defined as a term that’s added directly to the update rule.  e.g., in the seminal [AlexNet paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf):
 
@@ -28,7 +28,7 @@ here, $$L_{\text total}$$ is what we’ll call “total loss” which combines t
 
 $$w_{i+1} = w_i - 2 \lambda w_i - \Big<\frac{\delta L}{\delta w}|_{w_i}\Big>$$
 
-the key difference is the pesky factor of 2!  so, if you had your weight decay set to 0.0005 as in the AlexNet paper and you move to a deep learning framework that implements $L_2$ regularization instead, you should set that $$\lambda$$ hyperparameter to 0.0005/2.0 to get the same behavior.  this is what ended up causing the difference when moving from caffe (which implements weight decay) to keras (which implements $L_2$ regularization) — i set this hyperparameter to the same value in both.
+the key difference is the pesky factor of 2!  so, if you had your weight decay set to 0.0005 as in the AlexNet paper and you move to a deep learning framework that implements $L_2$ regularization instead, you should set that $$\lambda$$ hyperparameter to 0.0005/2.0 to get the same behavior.  this is what ended up causing the difference when moving from caffe (which implements weight decay) to keras (which implements $L_2$ regularization) — i set this hyperparameter to the same value in both.  note: some frameworks may define the $L_2$ term with a 0.5 in front so that it cancels out the factor of 2 in the gradient, but that is [not the case with keras](https://github.com/keras-team/keras/blob/master/keras/regularizers.py#L42).
 
 ## fancy solvers
 
