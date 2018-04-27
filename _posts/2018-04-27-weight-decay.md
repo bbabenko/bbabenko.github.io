@@ -44,3 +44,7 @@ loss = tf.losses.sparse_softmax_cross_entropy(labels=labels, logits=logits)
 ```
 
 i started digging around to see if there’s some magic happening behind the scenes to pick up the regularizers you've passed into the layers and add them to the loss inside the estimator — keras does this sort of [magic](https://github.com/keras-team/keras/blob/master/keras/engine/training.py#L845) for you, but the estimator code does not.  passing the regularizers into the layers simply results in those regularization tensors into the `REGULARIZATION_LOSSES` collection, but it’s up to the caller to pick these up, add them to the main loss and pass that combination into the estimator.  alternatively, if you register the main loss into the `LOSSES` collection, you can then call [this function](https://www.tensorflow.org/api_docs/python/tf/losses/get_total_loss) to get the total loss.  all in all, this seems like a leaky abstraction to me… the layers API makes it look like it’s very easy to set regularizers per layer, but the caller needs to understand how these things work under the hood to use this feature properly.
+
+----
+
+discuss on [hacker news](https://news.ycombinator.com/item?id=16941350), why not (\/)(°,,,°)(\/) 
