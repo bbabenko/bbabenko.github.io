@@ -1,6 +1,5 @@
 ---
-layout: draft
-title:   weight decay vs L2 regularization"
+title:   weight decay vs L2 regularization
 date:   2018-04-27
 use_math: true
 ---
