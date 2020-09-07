@@ -5,6 +5,18 @@ permalink: "/pubs.html"
 ---
 please see [my google scholar page](https://scholar.google.com/citations?user=HzfkQy4AAAAJ&hl=en&oi=ao) for more information.
 
+### "Predicting Progression of Age-related Macular Degeneration from Fundus Images using Deep Learning"
+Boris Babenko, Siva Balasubramanian, Katy E. Blumer, Greg S. Corrado, Lily Peng, Dale R. Webster, Naama Hammel, Avinash V. Varadarajan
+arXiv, 2019
+[[pdf](https://arxiv.org/ftp/arxiv/papers/1904/1904.05478.pdf)] [[arxiv](https://arxiv.org/abs/1904.05478)]
+```
+@misc{1904.05478,
+Author = {Boris Babenko and Siva Balasubramanian and Katy E. Blumer and Greg S. Corrado and Lily Peng and Dale R. Webster and Naama Hammel and Avinash V. Varadarajan},
+Title = {Predicting Progression of Age-related Macular Degeneration from Fundus Images using Deep Learning},
+Year = {2019},
+Eprint = {arXiv:1904.05478},
+}
+```
 
 ### "Multiple Instance Learning with Manifold Bags"
 Boris Babenko, Nakul Verma, Piotr Dollar, Serge Belongie  
