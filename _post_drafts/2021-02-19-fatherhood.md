@@ -1,4 +1,7 @@
-
+---
+title:  "fatherhood"
+date:   2020-xx-xx
+---
 # on fatherhood
 
 when my son was born, it fundamentally changed my perspective on life. i wanted to write about the experience, but ... went on living my life, changing diapers, etc. fast foward three years, and my wife and i welcomed a second son into our lives, so now i have twice the incentive to document my thoughts. of course, parenthood is a topic that has been beaten to death already (turns out humans have been making babies for quite some time), so i won't claim any novelty here, i'm mostly writing this for myself.
