@@ -1,6 +1,5 @@
 ---
 title:  "fatherhood"
-date:   2020-xx-xx
 ---
 # on fatherhood
 
