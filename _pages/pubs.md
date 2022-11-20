@@ -3,14 +3,40 @@ layoutl: defaults
 title: "publications"
 permalink: "/pubs.html"
 ---
-please see [my google scholar page](https://scholar.google.com/citations?user=HzfkQy4AAAAJ&hl=en&oi=ao) for more information.
+please see [my google scholar page](https://scholar.google.com/citations?user=HzfkQy4AAAAJ&hl=en&oi=ao) for more updated information.
+
+### "Detection of signs of disease in external photographs of the eyes via deep learning"
+Boris Babenko, Akinori Mitani, Ilana Traynis, Naho Kitade, Preeti Singh, April Y. Maa, Jorge Cuadros, Greg S. Corrado, Lily Peng, Dale R. Webster, Avinash Varadarajan, Naama Hammel & Yun Liu
+Nature Biomedical Engineering, 2022
+[[journal paper](https://www.nature.com/articles/s41551-022-00867-5] [[arxiv](https://arxiv.org/abs/2008.04370)]
+```
+@article{babenko2022,
+title = {Detection of signs of disease in external photographs of the eyes via deep learning},
+journal = {Nature Biomedical Engineering},
+year = {2022},
+author = {Boris Babenko and Akinori Mitani and Ilana Traynis and Naho Kitade and Preeti Singh and April Y. Maa and Jorge Cuadros and Greg S. Corrado and Lily Peng and Dale R. Webster and Avinash Varadarajan and Naama Hammel and Yun Liu},
+}
+```
+
+### "Predicting the risk of developing diabetic retinopathy using deep learning"
+Ashish Bora, Siva Balasubramanian, Boris Babenko, Sunny Virmani, Subhashini Venugopalan, Akinori Mitani, Guilherme {de Oliveira Marinho}, Jorge Cuadros, Paisan Ruamviboonsuk, Greg S Corrado, Lily Peng, Dale R Webster, Avinash V Varadarajan, Naama Hammel, Yun Liu, Pinal Bavishi
+Lancet Digital Health, 2021
+[[journal paper]("https://doi.org/10.1016/S2589-7500%2820%2930250-8")] [[arxiv](https://arxiv.org/abs/2008.04370)]
+```
+@article{bora2021,
+title = {Predicting the risk of developing diabetic retinopathy using deep learning},
+journal = {The Lancet Digital Health},
+year = {2021},
+author = {Ashish Bora and Siva Balasubramanian and Boris Babenko and Sunny Virmani and Subhashini Venugopalan and Akinori Mitani and Guilherme {de Oliveira Marinho} and Jorge Cuadros and Paisan Ruamviboonsuk and Greg S Corrado and Lily Peng and Dale R Webster and Avinash V Varadarajan and Naama Hammel and Yun Liu and Pinal Bavishi},
+}
+```
 
 ### "Predicting Progression of Age-related Macular Degeneration from Fundus Images using Deep Learning"
 Boris Babenko, Siva Balasubramanian, Katy E. Blumer, Greg S. Corrado, Lily Peng, Dale R. Webster, Naama Hammel, Avinash V. Varadarajan
 arXiv, 2019
 [[pdf](https://arxiv.org/ftp/arxiv/papers/1904/1904.05478.pdf)] [[arxiv](https://arxiv.org/abs/1904.05478)]
 ```
-@misc{1904.05478,
+@misc{babenko2019,
 Author = {Boris Babenko and Siva Balasubramanian and Katy E. Blumer and Greg S. Corrado and Lily Peng and Dale R. Webster and Naama Hammel and Avinash V. Varadarajan},
 Title = {Predicting Progression of Age-related Macular Degeneration from Fundus Images using Deep Learning},
 Year = {2019},
