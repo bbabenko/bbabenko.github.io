@@ -8,7 +8,7 @@ please see [my google scholar page](https://scholar.google.com/citations?user=Hz
 ### "Detection of signs of disease in external photographs of the eyes via deep learning"
 Boris Babenko, Akinori Mitani, Ilana Traynis, Naho Kitade, Preeti Singh, April Y. Maa, Jorge Cuadros, Greg S. Corrado, Lily Peng, Dale R. Webster, Avinash Varadarajan, Naama Hammel & Yun Liu
 Nature Biomedical Engineering, 2022
-[[journal paper](https://www.nature.com/articles/s41551-022-00867-5] [[arxiv](https://arxiv.org/abs/2008.04370)]
+[[journal paper](https://www.nature.com/articles/s41551-022-00867-5)] [[arxiv](https://arxiv.org/abs/2008.04370)]
 ```
 @article{babenko2022,
 title = {Detection of signs of disease in external photographs of the eyes via deep learning},
