@@ -5,6 +5,19 @@ permalink: "/pubs.html"
 ---
 please see [my google scholar page](https://scholar.google.com/citations?user=HzfkQy4AAAAJ&hl=en&oi=ao) for more updated information.
 
+### "A deep learning model for novel systemic biomarkers in photographs of the external eye: a retrospective study."
+Boris Babenko, Ilana Traynis, Christina Chen, Preeti Singh, Akib Uddin, Jorge Cuadros, Lauren P Daskivich, April Y Maa, Ramasamy Kim, Eugene Yu-Chuan Kang, Yossi Matias, Greg S Corrado, Lily Peng, Dale R Webster, Christopher Semturs, Jonathan Krause, Avinash V Varadarajan, Naama Hammel, Yun Liu
+Lancet Digit Health, 2023
+[[journal paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00022-5/fulltext)]
+```
+@article{babenko2022,
+title = {A deep learning model for novel systemic biomarkers in photographs of the external eye: a retrospective study},
+journal = {Lancet Digital Health},
+year = {2023},
+author = {Boris Babenko and Ilana Traynis and Christina Chen and Preeti Singh and Akib Uddin and Jorge Cuadros and Lauren P Daskivich and April Y Maa and Ramasamy Kim and Eugene Yu-Chuan Kang and Yossi Matias and Greg S Corrado and Lily Peng and Dale R Webster and Christopher Semturs and Jonathan Krause and Avinash V Varadarajan and Naama Hammel and Yun Liu},
+}
+```
+
 ### "Detection of signs of disease in external photographs of the eyes via deep learning"
 Boris Babenko, Akinori Mitani, Ilana Traynis, Naho Kitade, Preeti Singh, April Y. Maa, Jorge Cuadros, Greg S. Corrado, Lily Peng, Dale R. Webster, Avinash Varadarajan, Naama Hammel & Yun Liu  
 Nature Biomedical Engineering, 2022  
